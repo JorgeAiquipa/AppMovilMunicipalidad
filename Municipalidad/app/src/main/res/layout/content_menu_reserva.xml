@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ore"
+        android:contentDescription="@string/todo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rlvDeporte"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imgDeporte"
+            android:src="@drawable/deporte"
+            android:contentDescription="@string/todo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblDeporte"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/imgDeporte"
+            android:text="@string/menu_actividad_deportiva"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblDeporte"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/imgDeporte"
+            android:text="@string/submenu_deporte"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rlvInstalacion"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imgInstalacion"
+            android:src="@drawable/instalacion"
+            android:contentDescription="@string/todo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblActividad"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/imgInstalacion"
+            android:text="@string/menu_instalacion_deportiva"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblActividad"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/imgInstalacion"
+            android:text="@string/submenu_instalacion"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

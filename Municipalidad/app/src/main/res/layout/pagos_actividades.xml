@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rlv2"
+    android:layout_marginTop="20dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="20dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgInstalacion"
+        android:src="@drawable/voley"
+        android:contentDescription="@string/todo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblDeporte2"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/imgInstalacion"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblHorario"
+        android:layout_below="@+id/lblDeporte2"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/imgInstalacion"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imgVisa"
+        android:src="@drawable/visa"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/todo"/>
+
+</RelativeLayout>

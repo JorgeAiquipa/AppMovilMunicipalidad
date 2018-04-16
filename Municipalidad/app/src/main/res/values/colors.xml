@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="foreground">#FFFFFF</color>
+    <color name="negro">#000000</color>
+
+    <color name="colorTitulo">#8BC8D8</color>
+    <color name="colorBoton">#2196F3</color>
+    <color name="colorVecino">#7CD175</color>
+    <color name="colorNoSoyVecino">#83AAE5</color>
+</resources>

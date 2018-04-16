@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Municipalidad San Borja</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_pwd">Contraseña</string>
+    <string name="todo">TODO</string>
+    <string name="titulo_login">AUTOSERVICIO JUVENTUD Y DEPORTE</string>
+    <string name="boton_ingresar">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="tituloReservas">Reservas</string>
+    <string name="menu_actividad_deportiva">ACTIVIDAD DEPORTIVA</string>
+    <string name="menu_instalacion_deportiva">INSTALACIÓN DEPORTIVA</string>
+    <string name="submenu_deporte">El sistema propone las actividades favoritas</string>
+    <string name="submenu_instalacion">Reservar por horas las canchas de fútbol / voley</string>
+    <string name="titulo_reservar_deporte">Reservar Actividad</string>
+    <string name="desc_vecino">Beneficios en el pago de la actividad deportiva</string>
+    <string name="desc_novecino">La tarifa normal sin descuento</string>
+    <string name="soy_vecino">Soy vecino</string>
+    <string name="no_soy_vecino">No soy vecino</string>
+    <string name="grabar">Grabar</string>
+    <string name="boton_otras_reservas">Otras Reservas</string>
+    <string name="subtitulo_pago_tarjeta">Pago Tarjeta</string>
+    <string name="hint_nro_tarjeta">Número de tarjeta</string>
+    <string name="hint_venc">MM/AAAA</string>
+    <string name="hint_cvv">CVV</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellido">Apellido</string>
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="boton_pagar">PAGAR S/. %1$s</string>
+
+</resources>
